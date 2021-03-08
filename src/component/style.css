@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+body {
+	font-family: "Roboto Mono", monospace;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(
+		179.4deg,
+		rgba(33, 150, 243, 1) 1.8%,
+		rgba(22, 255, 245, 0.6) 97.1%
+	);
+}
+git
+	config
+	--global
+	user.email
+	"you@example.com"
+	git
+	config
+	--global
+	user.name
+	"Your Name"
+	.todo-list {
+	width: 700px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	align-items: center;
+	background-image: linear-gradient(
+		183.5deg,
+		rgba(244, 173, 6, 1) 18.6%,
+		rgba(229, 251, 31, 1) 119.9%
+	);
+	border-radius: 9px;
+}
+.todo-form {
+	margin-bottom: 10px;
+}
+
+input {
+	padding-left: 20px;
+	height: 30px;
+	width: 300px;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+}
+button {
+	height: 30px;
+	width: 100px;
+	border-radius: 8px;
+	text-decoration: none;
+	border: none;
+	margin-left: 6px;
+}
+.todo-row {
+	width: 500px;
+	border: 1px solid;
+	display: flex;
+	padding: 6px;
+	margin: 6px;
+	border-radius: 5px;
+	justify-content: space-between;
+	background-image: linear-gradient(
+		109.6deg,
+		rgba(39, 142, 255, 1) 11.2%,
+		rgba(255, 200, 98, 0.78) 100.2%
+	);
+}
+.icon {
+	display: flex;
+	width: 50px;
+	justify-content: space-between;
+}
+.edit,
+.delete {
+	cursor: pointer;
+	padding: 3px;
+}
